@@ -29,7 +29,7 @@ pipeline {
 
         stage('Docker Build') {
             steps {
-                bat 'docker build -t kamakshiagg/myapp:latest .'
+                bat 'docker build -t kamakshiagg/myapp:development .'
             }
         }
 
@@ -51,7 +51,7 @@ pipeline {
 
         stage('Docker Push') {
             steps {
-                bat 'docker push kamakshiagg/myapp:latest'
+                bat 'docker push kamakshiagg/myapp:development'
             }
         }
     }
