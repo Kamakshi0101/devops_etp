@@ -58,7 +58,7 @@ pipeline {
 
     post {
         success {
-            echo 'Build Successful development branch'
+            echo 'Build Successful developmenttt branch'
         }
 
         failure {
