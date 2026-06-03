@@ -58,7 +58,7 @@ pipeline {
 
     post {
         success {
-            echo 'Build Successful development brach'
+            echo 'Build Successful master brach'
         }
 
         failure {
